@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kitapdinle</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+    <div class="container px-5 py-2">
+      <a href="#" class="navbar-brand fw-bold">Sesli Kitap</a>
+      <!-- Hamburger menü gelmesi için buraya buton ekleniyor -->
+      <button type="button" class="navbar-toggler small" data-bs-toggle="collapse"
+        data-bs-target="#navbar-startbootstrap" aria-controls="navbar-startbootstrap">
+        <span class="menu mb-2">Menu</span>
+        <i class="bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-startbootstrap">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">Kategori</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">İndir</a>
+          </li>
+        </ul>
+
+        <button class="btn btn-primary rounded-pill ms-2" style="width: max-content" type="submit"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <span class="d-flex column-gap-3">
+            <i class="bi-chat-text-fill"></i>
+            <span style="white-space: nowrap">Bize yazın</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5 bg-light">
+    <div class="container px-5">
+      <div class="row">
+        <div class="col-lg-6 flex-lg-row">
+          <div class="mt-5 text-center text-lg-start">
+            <h1>Kitapları bitirmek artık çok kolay</h1>
+            <!-- h1 e display-1 classı verip üstteki divi kaldırınca yine aynısı oluyor -->
+            <p class="text-muted mb-5">
+              Okumaya vaktiniz mi yok? Evde, işte, yolda merak ettiğiniz tüm
+              kitapları dinleyerek bitirebilirsiniz.
+            </p>
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                <!-- bunlar iki butorun çok güzel yaptı -->
+                <img class="app-badge" src="assets/img/google.webp" alt="google.badge" />
+              </a>
+              <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                <img class="app-badge" src="assets/img/app.webp" alt="app.badge" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 position-relative">
+          <div class="d-flex h-100 align-items-center justify-content-center">
+            <img class="img-fluid position-relative phone-book " src="assets/img/books.png" alt="phone-book" />
+            <div class="circle-big position-absolute"></div>
+            <div class="my-gradient position-absolute rounded-circle circle-1  d-none d-lg-block"></div>
+            <div class="my-gradient position-absolute rounded-circle circle-2 d-none d-lg-block"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <aside class="py-5 my-gradient">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-8 text-center mt-5">
+          <h2 class="text-white mb-5">
+            "Herkesin ihtiyacı ve hayali olan kitapları sesli dinleme özelliği bir uygulamada toplandı."
+          </h2>
+          <div class="justify-content-center"></div>
+          <img class="img-fluid" src="assets/img/logo_transparent.png" alt="logo" />
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <section class="py-5">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+          <div class="container-fluid px-5">
+            <div class="row gx-5">
+              <div class="col-md-6 mb-5">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-phone icon-feature icon-gradient d-block mb-3"></i>
+                  <h4 class="font-alt">Kütüphanenizde</h4>
+                  <p class="text-muted mb-0">
+                    Kütüphanenize kaydederek internetinizin olmadığı zamanlarda dinleyebilirsiniz
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-5">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-alarm icon-feature icon-gradient d-block mb-3"></i>
+                  <h4 class="font-alt">Uyku zamanlayıcısı</h4>
+                  <p class="text-muted mb-0">
+                    Bu özelliği ayarlayarak seslendirmenin belirli bir süre sonra sona ermesini sağlayabilirsiniz. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-md-0">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-gift icon-feature icon-gradient d-block mb-3"></i>
+                  <h4 class="font-alt">Ücretsiz</h4>
+                  <p class="text-muted mb-0">
+                    Binlerce kitaba ücretsiz erişebilirsiniz.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi bi-moon icon-feature icon-gradient d-block mb-3"></i>
+                  <h4 class="font-alt">Gece modu</h4>
+                  <p class="text-muted mb-0">
+                    Gece modu sayesinde uygulama arka planı ve ışık parlaklığını otomatik olarak ayarlıyor. 
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 position-relative order-lg-0 container">
+          <div class="d-flex h-100 align-items-center justify-content-center">
+            <img class="img-fluid position-relative phone-book media" src="assets/img/books.png" alt="phone-book" />
+            <div class="circle-big-2 position-absolute"></div>
+            <div class="my-gradient position-absolute rounded-circle circle-3  d-none d-lg-block"></div>
+            <div class="my-gradient position-absolute rounded-circle circle-4 d-none d-lg-block"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="bg-light py-5 section-second">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+        <div class="col-12 col-lg-5">
+          <h2 class="display-4 lh-1 mb-4">Ailenizle masal saati</h2>
+          <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+            Her akşam çocuklarınıza okuduğunuz kitapların veya anlattığınız masalların yerine
+            bazen kitap dinleme uygulamasını açabilir, yüzlerce çocuk kitapları arasından
+            istediğinizi seçip hep birlikte dinleme imkanına sahip olabilirsiniz.
+          </p>
+        </div>
+        <div class="col-sm-8 col-md-6">
+          <div class="px-5 px-sm-0">
+            <img class="img-fluid rounded-circle" src="assets/img/kulaklık.png" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="position-relative wrapper">
+      <div class="darkness"></div>
+      <img class="image-section img-fluid" src="assets/img/wallpaper2-min.jpg" alt="" />
+      <div class="row content-wrapper">
+        <div class="col-6">
+          <div class="px-5 container">
+            <h3 class="text-white">
+              Bekleme.
+              <br>
+              Şimdi başla.
+            </h3>
+            <button class="btn btn-outline-light rounded-pill small">
+              İndirin
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 my-gradient">
+    <div class="container px-5">
+      
+          <h4 class="text-white text-center mb-4">Get the app now!</h4>
+        </div>
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+          <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+            <img class="app-badge" src="assets/img/google.webp" alt="google.badge" />
+          </a>
+          <a href="#">
+            <img class="app-badge" src="assets/img/app.webp" alt="app.badge" />
+          </a>
+        
+     
+    </div>
+  </section>
+
+  <footer class="py-5">
+    <div class="container px-5">
+      <div class="text-center align-items-center justify-content-center">
+        <p class="text-white-50 small">
+          © Ragibe A.K. 2023. All Rights Reserved.
+        </p>
+
+        <a class="text-white-50 text-decoration-none small" href="#">Privacy</a>
+        <span class="text-white-50 mx-1">·</span>
+        <a class="text-white-50 text-decoration-none small" href="#">Terms</a>
+        <span class="text-white-50 mx-1">·</span>
+        <a class="text-white-50 text-decoration-none small" href="#">FAQ</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form action="https://formsubmit.co/ragibeaydin12@gmail.com" method="POST">
+          <div class="modal-header my-gradient text-white">
+            <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">
+              Size nasıl yardımcı olabiliriz?
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input placeholder="Full name" type="text" id="floatingInput" name="full_name" class="form-control" />
+              <label for="floatingInput">Full name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floating2" name="email" required
+                placeholder="name@example.com" />
+              <label for="floating2">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input placeholder="Phone number" type="phone_number" id="phone_number" name="phone_number"
+                class="form-control" />
+              <label for="phone_number">Phone number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea placeholder="Message" type="text" id="message" name="message" class="form-control"
+                rows="5"></textarea>
+              <label for="message">Mesajınız</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">
+              <!-- type button değil submit olmalı. işlem görmesi için -->
+              Gönder
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

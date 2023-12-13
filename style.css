@@ -1,0 +1,218 @@
+.navbar-brand:hover {
+  color: blue;
+}
+
+nav a {
+  font-family: "Kanit", sans-serif;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.menu {
+  margin-right: 5px;
+}
+
+.collapse button {
+  margin-left: 1.5rem;
+}
+
+h1 {
+  color: purple;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 40px;
+  }
+}
+
+
+
+.app-badge {
+  width: 155px;
+  height: 48px;
+}
+
+.menu,
+.bi-list {
+  font-size: small;
+  display: inline-block
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.phone-book {
+  width: 240px;
+  height: 477px;
+  border-radius: 10%;
+  z-index: 1
+}
+
+.circle-big {
+  background: #D3B0AC;
+  background: linear-gradient(90deg,
+      #D3B0AC 0%,
+      rgba(217, 134, 118, 100) 100%);
+  width: 400px;
+  height: 400px;
+  border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+}
+
+@media (max-width: 768px) {
+
+  .circle-big {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .circle-big-2 {
+    display: none;
+  }
+}
+
+.circle-big-2 {
+  background: #D3B0AC;
+  background: linear-gradient(90deg,
+      #D3B0AC 0%,
+      rgba(217, 134, 118, 100) 100%);
+  width: 350px;
+  height: 350px;
+  right: 95px;
+  border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+  overflow: hidden;
+}
+
+.circle-1 {
+  width: 24px;
+  height: 24px;
+  top: 2px;
+  right: 70px;
+}
+
+.circle-2 {
+  width: 24px;
+  height: 24px;
+  bottom: 2px;
+  left: 70px;
+}
+
+.circle-3 {
+  width: 24px;
+  height: 24px;
+  top: 2px;
+  right: -10px;
+}
+
+.circle-4 {
+  width: 24px;
+  height: 24px;
+  bottom: 2px;
+  left: -10px;
+}
+
+.section-second {
+  background-color: #D3B0AC;
+}
+
+.image-section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.darkness {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.wrapper {
+  height: 650px;
+}
+
+.content-wrapper {
+  z-index: 1;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+h3 {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 88px;
+  
+}
+
+.btn-outline-light {
+  margin-left: 20%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.section-end .rows {
+  margin-left: 30%;
+}
+
+footer {
+  background-color: black;
+}
+
+.my-gradient {
+  background: #7d56cc;
+  background: linear-gradient(90deg,
+      #7d56cc 0%,
+      rgba(217, 134, 118, 100) 100%);
+}
+
+/* background-image: linear-gradient(to right, purple, yellow); 
+bu şekilde image olarak da olmuştu*/
+
+.icon-gradient {
+  background: #7d56cc;
+  background: linear-gradient(90deg,
+      #7d56cc 0%,
+      rgba(217, 134, 118, 100) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-feature {
+  font-size: 3rem;
+}
